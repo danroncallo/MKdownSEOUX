@@ -1,0 +1,21 @@
+# Ignorar carpetas de desarrollo y gestión en el paquete NPM
+node_modules/
+conductor/
+docs/
+algoritmos/
+tests/
+MKdownSEO/tests/
+
+# Ignorar archivos de configuración de herramientas
+.gitignore
+.npmignore
+GEMINI.md
+package-lock.json
+
+# Ignorar binarios y comprimidos
+*.zip
+*.crx
+*.pem
+
+# Ignorar logs
+*.log

@@ -1,0 +1,35 @@
+# Dependencias
+node_modules/
+
+# Archivos de Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Archivos de compilación o empaquetado (Extensiones)
+*.zip
+*.crx
+*.pem
+
+# Carpetas de gestión interna del agente (Maestro/Conductor)
+conductor/
+docs/
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporales de Gemini
+.gemini/
+.gemini-research.json

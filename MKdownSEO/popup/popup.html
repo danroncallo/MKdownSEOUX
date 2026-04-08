@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MKdownSEO - Smart Filter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>MKdownSEO</h1>
+      <span class="version">v1.0.0</span>
+    </header>
+
+    <div class="section">
+      <p class="subtitle">Selecciona los componentes a extraer:</p>
+      
+      <div class="grid">
+        <label class="checkbox-container">
+          <input type="checkbox" id="metadata" checked>
+          <span class="checkmark"></span> Meta Data
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="schema" checked>
+          <span class="checkmark"></span> Schema Markup
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="tech" checked>
+          <span class="checkmark"></span> Tecnologías
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="header">
+          <span class="checkmark"></span> Header
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="nav">
+          <span class="checkmark"></span> Navigation
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="headings" checked>
+          <span class="checkmark"></span> Headings (H1-H6)
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="body" checked>
+          <span class="checkmark"></span> Body (Semántico)
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="bodyMarkdown">
+          <span class="checkmark"></span> Body (Clean MD)
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="bodyText">
+          <span class="checkmark"></span> Body (Plain Text)
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="bodyCleanHTML">
+          <span class="checkmark"></span> Body (HTML Limpio)
+        </label>
+
+        <label class="checkbox-container">
+          <input type="checkbox" id="bodyLinks" checked>
+          <span class="checkmark"></span> Enlaces del Body
+        </label>
+        
+        <label class="checkbox-container">
+          <input type="checkbox" id="footer">
+          <span class="checkmark"></span> Footer
+        </label>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="btn-extract" class="btn-primary">Generar Markdown</button>
+      <div class="secondary-actions hidden" id="post-actions">
+        <button id="btn-copy" class="btn-secondary">Copiar Texto</button>
+        <button id="btn-download" class="btn-secondary">Descargar .md</button>
+      </div>
+    </div>
+
+    <div id="status" class="status"></div>
+    
+    <div class="preview-area hidden" id="preview-container">
+        <textarea id="preview-text" readonly></textarea>
+    </div>
+
+    <footer>
+      <p>By jaguardluz - 2026</p>
+    </footer>
+  </div>
+  <script src="../lib/turndown.js"></script>
+  <script src="../lib/markdown-generator.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
