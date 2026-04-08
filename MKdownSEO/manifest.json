@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "MKdownSEO",
   "version": "1.1.0",
+  "author": "Daniel Ramirez",
   "description": "Filtro inteligente para convertir páginas web en Markdown para SEO y UX (Audit Pro).",
   "permissions": [
     "activeTab",
