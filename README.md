@@ -7,6 +7,7 @@ Desarrollado bajo el estándar de excelencia **jaguardluz 2026**, esta herramien
 ---
 
 ## 👨‍💻 Créditos y Colaboración
+
 *   **Creador:** Daniel Ramirez
 *   **Asistencia de IA:** Desarrollado y optimizado en colaboración con el modelo de lenguaje **Gemini** (Google AI).
 *   **Orquestación:** Implementado mediante la herramienta **Gemini CLI**, siguiendo flujos de trabajo de ingeniería avanzada y protocolos de diseño automatizado.
@@ -16,15 +17,18 @@ Desarrollado bajo el estándar de excelencia **jaguardluz 2026**, esta herramien
 ## ✨ Características Principales
 
 ### 🔍 Extracción Profunda y Resiliente
+
 - **Shadow DOM Traversal:** Algoritmo recursivo capaz de penetrar en Shadow Roots abiertos para capturar contenido oculto a los selectores estándar.
 - **Auditoría de Meta Data:** Captura en tiempo real de Títulos, Descripciones, Canonical, Robots, Open Graph y Twitter Cards.
 - **Schema.org Detection:** Extracción segura y parseo de bloques `application/ld+json` para validación de datos estructurados.
 
 ### 🛠️ Inteligencia de Negocio
+
 - **Tech Stack Profiler:** Identificación automática de CMS (WordPress, Webflow), Ecommerce (Shopify, Magento), Frameworks (React, Next.js) y herramientas de analítica.
 - **Body Links Catalog:** Generación automática de una tabla catálogo con todos los enlaces contextuales del cuerpo de la página, discriminando inteligentemente el ruido del header y footer.
 
 ### 📝 Salida de Alta Calidad
+
 - **Markdown Estratégico:** Reportes listos para ser consumidos por modelos de lenguaje (LLMs) o para ser incluidos en documentación técnica de auditoría.
 - **Variantes de Contenido:** Soporte para contenido semántico, Markdown puro, texto plano y estructura HTML limpia.
 
@@ -49,6 +53,7 @@ MKdownSEO/
 ## 🚀 Instalación y Uso
 
 ### 1. Preparación del Proyecto
+
 1.  **Clonar el repositorio:**
     ```bash
     git clone https://github.com/danroncallo/MKdownSEOUX.git
@@ -59,6 +64,7 @@ MKdownSEO/
     ```
 
 ### 2. Instalación en el Navegador (Chrome, Brave, Edge)
+
 Para usar la extensión mientras está en desarrollo, debes cargarla como una "Extensión sin empaquetar":
 
 1.  **Abrir el gestor de extensiones:** 
@@ -72,6 +78,7 @@ Para usar la extensión mientras está en desarrollo, debes cargarla como una "E
 4.  **Verificación:** Deberías ver el icono de **MKdownSEO** aparecer en tu lista de extensiones.
 
 ### 3. Guía de Uso Rápido
+
 Una vez instalada, sigue estos pasos para realizar tu primera auditoría:
 
 1.  **Fijar la extensión (Opcional):** Haz clic en el icono del rompecabezas (Extensiones) en tu navegador y "fija" (pin) a MKdownSEO para tener acceso rápido.
@@ -86,14 +93,18 @@ Una vez instalada, sigue estos pasos para realizar tu primera auditoría:
 ---
 
 ## 🧪 Calidad y Pruebas
+
 El proyecto utiliza **Jest** y **JSDOM** para garantizar la integridad de los algoritmos de extracción.
+
 - Ejecutar pruebas: `npm install && npm run test`
 
 ---
 
 ## 🛡️ Licencia y Firma
+
 Este proyecto se rige bajo los estándares de desarrollo ético y profesional.
 **Firma de Marca:** jaguardluz 2026.
 
 ---
+
 *Desarrollado con pasión por Daniel Ramirez y potenciado por la inteligencia artificial de Gemini.*
