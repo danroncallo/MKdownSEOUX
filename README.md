@@ -48,18 +48,40 @@ MKdownSEO/
 
 ## 🚀 Instalación y Uso
 
-### Local (Modo Desarrollador)
-1.  Clona este repositorio: `git clone https://github.com/danroncallo/MKdownSEOUX.git`
-2.  Abre tu navegador (Chrome/Edge/Brave) y dirígete a `chrome://extensions/`.
-3.  Activa el **"Modo de desarrollador"** (Developer mode).
-4.  Haz clic en **"Cargar extensión sin empaquetar"** (Load unpacked) y selecciona la carpeta `MKdownSEO/` de este proyecto.
+### 1. Preparación del Proyecto
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/danroncallo/MKdownSEOUX.git
+    ```
+2.  **Entrar al directorio:**
+    ```bash
+    cd MKdownSEOUX
+    ```
 
-### Uso
-1.  Navega a cualquier página web que desees auditar.
-2.  Haz clic en el icono de **MKdownSEO**.
-3.  Selecciona los componentes que deseas extraer.
-4.  Haz clic en **"Generar Markdown"**.
-5.  Copia el resultado o descárgalo como archivo `.md`.
+### 2. Instalación en el Navegador (Chrome, Brave, Edge)
+Para usar la extensión mientras está en desarrollo, debes cargarla como una "Extensión sin empaquetar":
+
+1.  **Abrir el gestor de extensiones:** 
+    - En **Chrome**: Escribe `chrome://extensions/` en la barra de direcciones.
+    - En **Brave**: Escribe `brave://extensions/`.
+    - En **Edge**: Escribe `edge://extensions/`.
+2.  **Activar el "Modo de desarrollador":** Localiza el interruptor en la esquina superior derecha y asegúrate de que esté encendido.
+3.  **Cargar la extensión:** 
+    - Haz clic en el botón **"Cargar extensión sin empaquetar"** (Load unpacked).
+    - En la ventana emergente, navega hasta la carpeta del proyecto y selecciona **específicamente la carpeta llamada `MKdownSEO/`** (la que contiene el archivo `manifest.json`).
+4.  **Verificación:** Deberías ver el icono de **MKdownSEO** aparecer en tu lista de extensiones.
+
+### 3. Guía de Uso Rápido
+Una vez instalada, sigue estos pasos para realizar tu primera auditoría:
+
+1.  **Fijar la extensión (Opcional):** Haz clic en el icono del rompecabezas (Extensiones) en tu navegador y "fija" (pin) a MKdownSEO para tener acceso rápido.
+2.  **Navegar:** Ve al sitio web que deseas analizar.
+3.  **Configurar:** Haz clic en el icono de la extensión para abrir el popup.
+4.  **Seleccionar:** Marca los componentes que necesites (ej. *Meta Data*, *Headings*, o el nuevo *Enlaces del Body*).
+5.  **Extraer:** Pulsa el botón **"Generar Markdown"**.
+6.  **Acción Final:** 
+    - Usa **"Copiar Texto"** para pegarlo directamente en ChatGPT, Claude o tu herramienta de documentación.
+    - Usa **"Descargar .md"** para guardar el reporte técnico en tu equipo.
 
 ---
 
