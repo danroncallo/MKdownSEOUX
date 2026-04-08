@@ -101,10 +101,11 @@ El proyecto utiliza **Jest** y **JSDOM** para garantizar la integridad de los al
 ---
 
 ## 🛡️ Licencia y Firma
+Este proyecto se distribuye bajo la **Licencia MIT**. Esto garantiza que el software es de código abierto y permite su uso, modificación y distribución gratuita, siempre que se mantenga el aviso de copyright y la autorización de la licencia original. 
 
-Este proyecto se rige bajo los estándares de desarrollo ético y profesional.
+Para más detalles, consulta el archivo [LICENSE](./LICENSE) en la raíz de este repositorio.
+
 **Firma de Marca:** jaguardluz 2026.
 
 ---
-
 *Desarrollado con pasión por Daniel Ramirez y potenciado por la inteligencia artificial de Gemini.*
